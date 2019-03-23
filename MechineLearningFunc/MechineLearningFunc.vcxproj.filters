@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\ActivationFunc">
+      <UniqueIdentifier>{76a6feaa-19a0-43df-a8d0-f0ba0fbbfc73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -21,6 +24,9 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ActivationFunc.h">
+      <Filter>源文件\ActivationFunc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -28,6 +34,9 @@
     </ClCompile>
     <ClCompile Include="MechineLearningFunc.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivationFunc.cpp">
+      <Filter>源文件\ActivationFunc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
