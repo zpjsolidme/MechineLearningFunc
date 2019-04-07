@@ -16,6 +16,9 @@
     <Filter Include="源文件\ActivationFunc">
       <UniqueIdentifier>{76a6feaa-19a0-43df-a8d0-f0ba0fbbfc73}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Perceptron">
+      <UniqueIdentifier>{a4c7a73a-16b5-4d9a-a1da-542f4e15b8af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -27,6 +30,9 @@
     <ClInclude Include="ActivationFunc.h">
       <Filter>源文件\ActivationFunc</Filter>
     </ClInclude>
+    <ClInclude Include="Perceptron.h">
+      <Filter>源文件\Perceptron</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -37,6 +43,9 @@
     </ClCompile>
     <ClCompile Include="ActivationFunc.cpp">
       <Filter>源文件\ActivationFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="Perceptron.cpp">
+      <Filter>源文件\Perceptron</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
