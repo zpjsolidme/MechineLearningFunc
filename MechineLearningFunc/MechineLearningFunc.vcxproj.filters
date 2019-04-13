@@ -19,6 +19,12 @@
     <Filter Include="源文件\Perceptron">
       <UniqueIdentifier>{a4c7a73a-16b5-4d9a-a1da-542f4e15b8af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\datas">
+      <UniqueIdentifier>{41feaa18-bc8d-4b6e-81c9-9d6cef644649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\datas\perceptron">
+      <UniqueIdentifier>{3bf4ded0-b282-40a4-a3c8-a148d78ab136}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -47,5 +53,10 @@
     <ClCompile Include="Perceptron.cpp">
       <Filter>源文件\Perceptron</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\datas\Perceptron\perceptrondata.csv">
+      <Filter>源文件\datas\perceptron</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -17,9 +17,6 @@ public:
 	~ActivationFunc();
 
 
-
-
-
 public:
 
 	template<typename _Tp>
