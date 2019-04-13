@@ -50,25 +50,6 @@ int Perceptron::getData(const std::string &filename)
 
 	}
 	return 0;
-
-	//	while (!sin.eof())
-	//	{	
-	//		getline(sin, data, ',');
-	//		if (line.empty())
-	//		{
-	//			continue;
-	//		}
-	//		stringstream stringin(line);
-	//		while (stringin>> datas)
-	//		{		
-	//			tmpData.push_back(datas);
-	//			//tmpData.push_back(atof(data.c_str()));
-	//		}
-	//		indim = tmpData.size();
-	//		indim -= 1;
-	//		inData.push_back(tmpData);
-	//	}
-	//}
 }
 int Perceptron::splitData(const float &trainTotoalRation)
 {
